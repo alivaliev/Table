@@ -28,7 +28,7 @@ body {
 }
 .table table {
   border-collapse: collapse;
-  width: 30%;
+  text-align: center;
 }
 .table table tr:nth-child(odd) {
   background-color: #e4e4e4;
@@ -41,13 +41,11 @@ body {
 .table table tr .semestr {
   border-right: 1px solid #666;
   transform: rotate(270deg);
-  text-align: center;
+  padding: 0;
+  width: 100px;
 }
 .table table tr td {
   padding: 8px;
-}
-.table table tr .even {
-  background-color: #e4e4e4;
 }
 .table table .umumi {
   background-color: #f3f1f1 !important;
@@ -64,6 +62,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .memarliq {
+    font-size: 12px;
+  }
+  .akademik {
+    font-size: 10px;
+  }
   .transkript .ixtisas .titlediv {
     width: 25%;
   }
@@ -76,10 +80,13 @@ body {
   .transkript .ixtisas .descripdiv p {
     font-size: 10px;
   }
-  .table tr th {
+  .table table tr .semestr {
+    width: 50px;
+  }
+  .table table tr th {
     font-size: 10px;
   }
-  .table tr td {
+  .table table tr td {
     font-size: 10px;
   }
 }
@@ -96,10 +103,13 @@ body {
   .transkript .ixtisas .descripdiv p {
     font-size: 10px;
   }
-  .table tr th {
+  .table table tr .semestr {
+    width: 50px;
+  }
+  .table table tr th {
     font-size: 10px;
   }
-  .table tr td {
+  .table table tr td {
     font-size: 10px;
   }
 }
