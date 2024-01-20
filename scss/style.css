@@ -30,34 +30,37 @@ body {
   border-collapse: collapse;
   text-align: center;
 }
-.table table tr:nth-child(odd) {
-  background-color: #e4e4e4;
-}
-.table table tr th {
+.table table thead tr th {
   padding: 5px;
   background-color: darkslategray;
   color: #e4e4e4;
 }
-.table table tr .semestr {
+.table table tbody .rowth {
+  background-color: rgb(75, 122, 75);
+}
+.table table tbody .rowth th {
   border-right: 1px solid #666;
   transform: rotate(270deg);
-  padding: 0;
   width: 100px;
+  font-weight: 500;
 }
-.table table tr td {
+.table table tbody tr:hover td {
+  background-color: #e4e4e4;
+}
+.table table tbody tr td {
   padding: 8px;
 }
-.table table .umumi {
+.table table tfoot .umumi {
   background-color: #f3f1f1 !important;
 }
-.table table .umumi td {
+.table table tfoot .umumi td {
   border: 1px solid #666;
   text-align: center;
 }
-.table table .umumi td:first-child {
+.table table tfoot .umumi td:first-child {
   border-left: none;
 }
-.table table .umumi td:last-child {
+.table table tfoot .umumi td:last-child {
   border-right: none;
 }
 
