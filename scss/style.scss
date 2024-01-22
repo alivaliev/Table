@@ -105,24 +105,33 @@ body {
     }
   }
   .table {
+    h6{
+      font-size: 10px;
+    }
     table{
       thead {
         tr {
           th {
-            padding: 5px;
             font-size: 11px;
-            background-color: darkslategray;
-            color: #e4e4e4;
           }
         }
       }
       tbody {
-        tr {
+        .rowth{
           th{
-            width: 10px;
             font-size: 11px;
+            width: 50px;
           }
+        }
+        tr {
           td {
+            font-size: 10px;
+          }
+        }
+      }
+      tfoot{
+        tr{
+          td{
             font-size: 10px;
           }
         }
@@ -150,53 +159,40 @@ body {
     }
   }
   .table {
-    table {
-      .rowth {
-        background-color: rgb(75, 122, 75);
-        th {
-          border-right: 1px solid #666;
-          transform: rotate(270deg);
-          width: 10px;
-          font-weight: 500;
+    h6{
+      font-size: 10px;
+    }
+    table{
+      thead {
+        tr {
+          th {
+            font-size: 11px;
+          }
         }
       }
-      tr {
-        th {
-          font-size: 10px;
+      tbody {
+        .rowth{
+          th{
+            font-size: 11px;
+            width: 50px;
+          }
         }
-        td {
-          font-size: 10px;
+        tr {
+          td {
+            font-size: 10px;
+          }
+        }
+      }
+      tfoot{
+        tr{
+          td{
+            font-size: 10px;
+          }
         }
       }
     }
+   
   }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-  .transkript {
-    .ixtisas {
-      .titlediv {
-        width: 25%;
-        p {
-          font-size: 11px;
-        }
-      }
-      .descripdiv {
-        p {
-          font-size: 11px;
-        }
-        width: 75%;
-      }
-    }
-  }
-  .table {
-    tr {
-      th {
-        font-size: 11px;
-      }
-      td {
-        font-size: 11px;
-      }
-    }
-  }
-}
+

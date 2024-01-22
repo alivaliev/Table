@@ -83,17 +83,20 @@ body {
   .transkript .ixtisas .descripdiv p {
     font-size: 10px;
   }
-  .table table thead tr th {
-    padding: 5px;
-    font-size: 11px;
-    background-color: darkslategray;
-    color: #e4e4e4;
+  .table h6 {
+    font-size: 10px;
   }
-  .table table tbody tr th {
-    width: 10px;
+  .table table thead tr th {
     font-size: 11px;
+  }
+  .table table tbody .rowth th {
+    font-size: 11px;
+    width: 50px;
   }
   .table table tbody tr td {
+    font-size: 10px;
+  }
+  .table table tfoot tr td {
     font-size: 10px;
   }
 }
@@ -110,39 +113,20 @@ body {
   .transkript .ixtisas .descripdiv p {
     font-size: 10px;
   }
-  .table table .rowth {
-    background-color: rgb(75, 122, 75);
-  }
-  .table table .rowth th {
-    border-right: 1px solid #666;
-    transform: rotate(270deg);
-    width: 10px;
-    font-weight: 500;
-  }
-  .table table tr th {
+  .table h6 {
     font-size: 10px;
   }
-  .table table tr td {
+  .table table thead tr th {
+    font-size: 11px;
+  }
+  .table table tbody .rowth th {
+    font-size: 11px;
+    width: 50px;
+  }
+  .table table tbody tr td {
     font-size: 10px;
   }
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .transkript .ixtisas .titlediv {
-    width: 25%;
-  }
-  .transkript .ixtisas .titlediv p {
-    font-size: 11px;
-  }
-  .transkript .ixtisas .descripdiv {
-    width: 75%;
-  }
-  .transkript .ixtisas .descripdiv p {
-    font-size: 11px;
-  }
-  .table tr th {
-    font-size: 11px;
-  }
-  .table tr td {
-    font-size: 11px;
+  .table table tfoot tr td {
+    font-size: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
